@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <!--
+        AUTHOR : SIREESHA KUPPAMPATI
+        SPRINT 1 FOR SEM 2
+        COLLEGE : KEYIN COLLEGE
+        DATE : 21-FEB-2024
+    -->
+    <title>menu page</title>
+    <link rel = "stylesheet" href = "./Styles/menu.css" />
+  
+  </head>
+  <body>
+    <div class = "mainbox" style="background-image: url(/FrontEndDeveloment/2semSprint1/Images/menu.avif);">
+        <header>
+            <div class = "topcontainer">
+                <section id="one">
+                    <img style="height: 50px;
+                        border-radius: 50%;" src="./Images/logo.png" alt="gary logo">
+                </section>
+                <section id="two">
+                    <span class="topwhitefont"> GARY BLUES DINER </span>
+                </section>
+                <section id="three">
+                    <img style="height: 50px;
+                        border-radius: 50%;" src="./Images/image.png" alt="gary logo">
+                    <div class="menubox"><a href="order.html" target="_blank">ORDER ONLINE</a></div>
+                    <div class="menubox"><a href="#Top">OUR MENU</a></div>    
+                    <div class="menubox"><a href="home.html" target="_blank">HOME</a></div>
+                    
+                </section>
+            </div>
+        </header> 
+        <a name = "Top"></a>
+        <main>  
+            <nav>
+               <div class="navcontainer">
+                    <section id="nav1">
+                        <img id="banner" style="width: 550px; height: 510px;
+                        border-radius: 300px;"  src="./Images/biggary.avif" alt="yellow pcture">
+                    </section>
+                    <section id="nav2">
+                        <div class="row">
+                            <div id="egg" class="column">
+                                <button onmouseenter="changeImage('./Images/eggnbacon.avif')">
+                                    Egg & Bacon
+                                </button>
+                            </div>
+                            <div id="waffle" class="column">
+                                <button onmouseenter="changeImage('./Images/waffles.avif')">
+                                    waffles
+                            </button>
+                            </div>
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/french toast.avif')">
+                                    french Toast    
+                                </button>                            
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/friedchicken.avif')">
+                                    Fried Chicken
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/yellow menu.webp')">
+                                    bucket o' Chicken
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/biggary.avif')">
+                                    bagel
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/biggary.avif')">
+                                    Big Gary
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/taters.avif')">
+                                    taters
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/soup.avif')">
+                                    soup
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/eggnbacon.avif')">
+                                    Toutons
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/poutine.webp')">
+                                    Poutine
+                                </button>
+                            </div>
+                            <div class="column">
+                                <button onmouseenter="changeImage('./Images/background.jpg')">
+                                    Salad
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+
+            </nav>  
+       </main>
+        <footer></footer>
+    </div> 
+    <script>
+        function changeImage(filename){
+            let img = document.querySelector("#banner");
+            img.setAttribute("src",filename);
+        }
+    </script>       
+  </body>
+</html>

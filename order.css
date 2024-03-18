@@ -1,0 +1,133 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color:lightskyblue;
+  }
+  
+  .mainbox {
+    width: 1400px;
+    background-color: lightseagreen;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: left;
+  }
+  
+  .topcontainer{
+      display: flex;
+      background-color: teal;
+      justify-content: space-evenly;
+      border: 1px white;
+      
+      text-align: left;
+      font-size: 18pt;
+      font-family: bernard MT;
+      font-weight: 300;
+    }
+    section{
+        color: black ;
+    }
+    #two{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #three{
+    flex: 1;
+    padding-right: 30px;
+  }
+  .topwhitefont {
+    color: white;
+      font-style: initial;
+      place-content: 20px;
+      font-family: bernard MT;
+      font-size: 18pt;
+      font-weight: 300;
+    }
+    .menubox{
+        background-color: orange ;
+        border-end-end-radius: 15px;
+        height: 50px;
+        width: 170px;
+        color: whitesmoke;
+        float: right;
+        font-family: bernard MT;
+        font-size: 14pt;
+        font-weight: 200;
+    }
+    a:link{
+        text-decoration: none;
+        color: white;
+      }
+    a:hover{
+        text-decoration: none;
+        color: white;
+      }
+    .navcontainer{
+        max-width: 1000px;
+        border-radius: 25px;
+        background-color: lightgoldenrodyellow;
+        margin: 0 auto;
+        flex: 1;
+        
+      }
+      .icon{
+        float: right;
+        cursor: pointer;
+      }
+      
+      /* flex box */
+      .row{
+        display: flex;
+        flex: 1;
+        
+      }
+      #cart{
+        display: flex;  
+        align-items: center;
+       
+        cursor: pointer;
+      }
+      #cart .btn{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+      }
+        #cart .btn button{
+          background-color: yellow;
+          border: none;
+          font-family: poppins;      
+        }
+      #item-row{
+
+        align-items: center;
+        padding: auto;
+      }
+      #price-row{
+        width: 100px;
+        align-items: center;
+        padding: auto;;
+      }
+      #add-row{
+        display: flex;
+        cursor: pointer;
+       
+      }
+    .column{
+        background-color: teal;
+        width: 600px;
+        border-radius: 25px;
+       font-family: bernard MT;
+        font-size: 12pt;
+        font-weight: 200;
+        color: white;
+      }
+      #headtab{
+        display: flex;
+        justify-content: space-evenly;
+      }
+  
+
+  

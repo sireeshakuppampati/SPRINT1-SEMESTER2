@@ -1,0 +1,127 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color:lightskyblue;
+  }
+  
+  .mainbox {
+    width: 1400px;
+    height: 1000px; 
+    background-color: lightseagreen;
+    padding: 5px;
+    border: 3px solid gray;
+    text-align: left;
+  }
+  
+  .topcontainer{
+      display: flex;
+      background-color: teal;
+      justify-content: space-evenly;
+      border: 1px white;
+      
+      text-align: left;
+      font-size: 18pt;
+      font-family: bernard MT;
+      font-weight: 300;
+    }
+    section{
+        color: black ;
+    }
+    #two{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #three{
+    flex: 1;
+  }
+    #four{
+      flex: 1;
+      
+    }
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+  a:visited{
+     text-decoration: none;
+    color: white;
+  }
+ a:hover{
+    text-decoration: none;
+    color: white;
+  }
+  .topwhitefont {
+    color: white;
+      font-style: initial;
+      place-content: 20px;
+      font-family: bernard MT;
+      font-size: 18pt;
+      font-weight: 300;
+    }
+    .menubox{
+        background-color: orange ;
+        border-end-end-radius: 15%;
+        height: 50px;
+        width: 170PX;
+        color: whitesmoke;
+        float: right;
+        font-family: bernard MT;
+        font-size: 14pt;
+        font-weight: 300;
+    }
+    #navcontainer{
+      justify-content: space-evenly;
+      margin: 0 auto;
+      }
+    /* flex box */
+    .row{
+      display: flex;
+      gap: 20px;
+    }
+    .column{
+      display: flex;
+      background-color: teal;
+      text-align: center;
+      width: 200px;
+      height: 60px;
+      border-end-end-radius: 15px;
+      padding: 1 rem 0;
+      font-family: bernard MT;
+      font-size: 16pt;
+      color: white;
+      font-weight: 600;
+    }
+  #nav1{
+    flex: 1;
+    float: left;
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #nav1::before{
+    width: 540px;
+    height: 500px;
+    border: 3px solid darkgreen;
+    content: '';
+    position: absolute;
+    padding: 3px ;
+    border-radius: 430px;
+  }
+  .button{
+    color: white;
+  }
+  #nav2{
+    flex: 1;
+    float: right;
+  }
+
+ 
+
+  
